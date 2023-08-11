@@ -8,7 +8,7 @@
 import Foundation
 import MapKit
 
-class LocationsDataService {
+class LocationDataService {
     
     static let locations: [Location] = [
         Location(
