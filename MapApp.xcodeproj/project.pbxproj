@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		904CFD492A8532CC007AE553 /* MapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904CFD482A8532CC007AE553 /* MapAppApp.swift */; };
-		904CFD4B2A8532CC007AE553 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904CFD4A2A8532CC007AE553 /* ContentView.swift */; };
 		904CFD502A8532CD007AE553 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904CFD4F2A8532CD007AE553 /* Preview Assets.xcassets */; };
 		90A5EFDC2A86900400ECE789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A5EFDB2A86900400ECE789 /* Assets.xcassets */; };
 		90A5EFE12A8692E400ECE789 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5EFE02A8692E400ECE789 /* Location.swift */; };
 		90A5EFE42A8693F900ECE789 /* LocationDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5EFE32A8693F900ECE789 /* LocationDataService.swift */; };
 		90A5EFE62A86B55C00ECE789 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5EFE52A86B55C00ECE789 /* LocationView.swift */; };
 		90A5EFE82A86BB6500ECE789 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5EFE72A86BB6500ECE789 /* LocationViewModel.swift */; };
+		90A5EFEA2A86C6BA00ECE789 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5EFE92A86C6BA00ECE789 /* LocationListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		904CFD452A8532CC007AE553 /* MapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		904CFD482A8532CC007AE553 /* MapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppApp.swift; sourceTree = "<group>"; };
-		904CFD4A2A8532CC007AE553 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		904CFD4F2A8532CD007AE553 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		90A5EFDB2A86900400ECE789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90A5EFE02A8692E400ECE789 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		90A5EFE32A8693F900ECE789 /* LocationDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDataService.swift; sourceTree = "<group>"; };
 		90A5EFE52A86B55C00ECE789 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		90A5EFE72A86BB6500ECE789 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		90A5EFE92A86C6BA00ECE789 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,6 @@
 				90A5EFDF2A86929400ECE789 /* ViewModels */,
 				90A5EFDD2A8691A300ECE789 /* Models */,
 				904CFD482A8532CC007AE553 /* MapAppApp.swift */,
-				904CFD4A2A8532CC007AE553 /* ContentView.swift */,
 				90A5EFDB2A86900400ECE789 /* Assets.xcassets */,
 				904CFD4E2A8532CD007AE553 /* Preview Content */,
 			);
@@ -91,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				90A5EFE52A86B55C00ECE789 /* LocationView.swift */,
+				90A5EFE92A86C6BA00ECE789 /* LocationListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,8 +183,8 @@
 			files = (
 				90A5EFE42A8693F900ECE789 /* LocationDataService.swift in Sources */,
 				90A5EFE82A86BB6500ECE789 /* LocationViewModel.swift in Sources */,
-				904CFD4B2A8532CC007AE553 /* ContentView.swift in Sources */,
 				90A5EFE62A86B55C00ECE789 /* LocationView.swift in Sources */,
+				90A5EFEA2A86C6BA00ECE789 /* LocationListView.swift in Sources */,
 				90A5EFE12A8692E400ECE789 /* Location.swift in Sources */,
 				904CFD492A8532CC007AE553 /* MapAppApp.swift in Sources */,
 			);
