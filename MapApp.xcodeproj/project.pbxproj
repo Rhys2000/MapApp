@@ -16,6 +16,7 @@
 		90A5EFE82A86BB6500ECE789 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5EFE72A86BB6500ECE789 /* LocationViewModel.swift */; };
 		90A5EFEA2A86C6BA00ECE789 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5EFE92A86C6BA00ECE789 /* LocationListView.swift */; };
 		90A5EFEC2A882B6800ECE789 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5EFEB2A882B6800ECE789 /* LocationPreviewView.swift */; };
+		90A5EFEE2A883E1B00ECE789 /* LocationMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5EFED2A883E1B00ECE789 /* LocationMarkerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		90A5EFE72A86BB6500ECE789 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		90A5EFE92A86C6BA00ECE789 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		90A5EFEB2A882B6800ECE789 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		90A5EFED2A883E1B00ECE789 /* LocationMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMarkerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				90A5EFE52A86B55C00ECE789 /* LocationView.swift */,
 				90A5EFE92A86C6BA00ECE789 /* LocationListView.swift */,
 				90A5EFEB2A882B6800ECE789 /* LocationPreviewView.swift */,
+				90A5EFED2A883E1B00ECE789 /* LocationMarkerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90A5EFE42A8693F900ECE789 /* LocationDataService.swift in Sources */,
+				90A5EFEE2A883E1B00ECE789 /* LocationMarkerView.swift in Sources */,
 				90A5EFE82A86BB6500ECE789 /* LocationViewModel.swift in Sources */,
 				90A5EFE62A86B55C00ECE789 /* LocationView.swift in Sources */,
 				90A5EFEA2A86C6BA00ECE789 /* LocationListView.swift in Sources */,
